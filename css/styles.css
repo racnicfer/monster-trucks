@@ -15,7 +15,7 @@ http://subtlepatterns.com/category/patterns/page/2/
 */
 
 body {
-background-image: url(../img/congruent_outline.png);
+    background-image: url(../img/congruent_outline.png);
 }
 
 h1 {
@@ -31,7 +31,6 @@ p {
 
 li {
     display: inline-block;
-    list-style-type: none;
     font-size: 18px;
     text-decoration: none;
 }
