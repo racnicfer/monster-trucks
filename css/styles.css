@@ -1,6 +1,37 @@
+/*
+Color Palette
+Primary: 
+Secondary: 
+Tertiary/Accent Color: 
+
+
+Typography:
+Headlines: font-family: 'Orbitron', sans-serif
+Body Copy: 
+
+backgrounds:
+http://subtlepatterns.com/category/patterns/page/2/
+
+*/
+
 body {
-background: black;}
+background-image: url(../img/congruent_outline.png);
+}
 
 h1 {
     color: royalblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+}
+
+p {
+    color: royalblue;
+    font-family: 
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
 }
