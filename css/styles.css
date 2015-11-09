@@ -1,8 +1,8 @@
 /*
 Color Palette
-Primary: 
-Secondary: 
-Tertiary/Accent Color: 
+Primary: #2C3773
+Secondary: #333
+Tertiary/Accent Color: #848080, #3E5882, #BC5A07
 
 
 Typography:
@@ -18,19 +18,31 @@ body {
     background-image: url(../img/congruent_outline.png);
 }
 
-h1 {
-    color: royalblue;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 3em;
+aside {
+    margin: none;
+    text-align: left;
 }
 
+h1 {
+    color: #2C3773;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5em;
+    border-bottom: 50px solid #3E5882;
+    border-radius: 60px;
+    padding-left: 58px; 
+}
+
+
 p {
-    color: royalblue;
+    color: #2C3773;
     font-family: 
 }
 
+img {
+    width: 300px;
+}
 a {
-    background: royalblue;
+    background:#BC5A07;
     border-radius: 17px;
     display: block;
     height:55px;
@@ -40,28 +52,35 @@ a {
 
 li {
     display: inline-block;
-    font-size: 18px;
-    text-decoration: none;
+    font-size: 20px;
     border: none;
+    list-style: none;
+    text-align: center;
 }
 
+a:link,
+a:visited {
+    background: #BC5A07;
+    text-decoration: none;
+    color: #2C3773;
+    display: block;
+    height: 55px;
+    width: 150px;    
+    line-height: 30px;
+    outline-width: thick;
+    margin: 15px;
+    border-bottom: 27px solid #848080;
+    border-left: 51px solid #848080;
+}
 
 /* links ***************************
+ border-bottom: 27px dashed royalblue;
+    border-left: 51px solid royalblue;
 
-li {
-  list-style: none;
-    
-  /* make horizontal
- float: left;
-}
-
-/* link & Visited
 a:link,
 a:visited {
   /*transition: padding-top .5s;
-  border-left: 8px solid  black;
-  background: silver;
-  border-left: 8px solid silver;
+ 
   color: lightgray;
   display: block;
   height: 32px;
