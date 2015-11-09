@@ -29,8 +29,57 @@ p {
     font-family: 
 }
 
+a {
+    background: royalblue;
+    border-radius: 17px;
+    display: block;
+    height:55px;
+    width: 100px;
+    text-align: center;
+}
+
 li {
     display: inline-block;
     font-size: 18px;
     text-decoration: none;
+    border: none;
 }
+
+
+/* links ***************************
+
+li {
+  list-style: none;
+    
+  /* make horizontal
+ float: left;
+}
+
+/* link & Visited
+a:link,
+a:visited {
+  /*transition: padding-top .5s;
+  border-left: 8px solid  black;
+  background: silver;
+  border-left: 8px solid silver;
+  color: lightgray;
+  display: block;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  text-decoration: none;
+  padding-top: 0;
+  margin-bottom: 10px;
+  width: 200px;
+ 
+}*/
+/* hover state 
+a:focus,
+a:hover,
+a:active {  
+  border-left: 8px solid  black;
+  background-color: royalblue;
+  color: black;
+  padding-top: 32px;
+}
+*/
