@@ -1,8 +1,8 @@
 /*
 Color Palette
-Primary: #2C3773
-Secondary: #333
-Tertiary/Accent Color: #848080, #3E5882, #BC5A07
+Primary: #3E5882 rgb(62,18,130)
+Secondary: #B9B9B9
+Tertiary/Accent Color: #333,#2C3773, #BC5A07
 
 
 Typography:
@@ -19,34 +19,57 @@ body {
    
 }
 
-
+aside {
+    margin-right: 20px;
+}
 h1 {
     color: #3E5882;
     font-family: 'Orbitron', sans-serif;
-    font-size: 5em;
-    border-bottom: 50px solid #2C3773;
+    font-size: 7em;
+    border-bottom: 40px solid #BC5A07;
     border-radius: 60px;
-    margin-left:0; 
-    
+    margin-left:0;
+    margin: 20px 0;
 }
 
+h2 {
+    color: #3E5882;
+    font-family: 'Sura', serif;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    border-radius: 5px;
+    border: 6px solid #BC5A07;
+}
 
 p {
-    color: #2C3773;
-    font-family: 
+    color: #B9B9B9;
+    font-family: 'Sura', serif;
+    font-size: 30px;
+}
+
+#bluetruck, #three {
+    float: right;
 }
 
 img {
-    width: 500px;
+    float: left;
+    width: 600px;
+    top: 0; 
+    padding: 10px 30px;
 }
 
 a {
-    border-radius: 17px;
+    border-radius: 5px;
     display: block;
     height:55px;
     width: 100px;
     text-align: center;
+    border-bottom: 25px solid #2C3773;  
+    
+    
 }
+
 
 li {
     font-family: 'Sura', serif;
@@ -56,47 +79,43 @@ li {
     border: none;
     list-style: none;
     text-align: center;
+    float:left;
 }
 
 a:link,
 a:visited {
-    background: #848080;
+    background: #B9B9B9;
     text-decoration: none;
-    color:  #3E5882;
+    transition: all .05s;
+    padding-top: 0;
+    text-align: center;
     display: block;
     height: 55px;
     width: 150px;    
-    line-height: 30px;
+    line-height: 27px;
     margin: 15px;
-    border-bottom: 27px solid #2C3773;
+    border-bottom: 27px solid #3E5882;
 }
 
-/* links ***************************
- border-bottom: 27px dashed royalblue;
-    border-left: 51px solid royalblue;
-
-a:link,
 a:visited {
-  /*transition: padding-top .5s;
- 
-  color: lightgray;
-  display: block;
-  height: 32px;
-  text-align: center;
-  line-height: 32px;
-  text-decoration: none;
-  padding-top: 0;
-  margin-bottom: 10px;
-  width: 200px;
- 
-}*/
-/* hover state 
+    color: #BC5A07;
+}
+
+a:link {
+    color: #3E5882;
+}
+footer {
+    color: #BC5A07;
+}
 a:focus,
 a:hover,
 a:active {  
-  border-left: 8px solid  black;
-  background-color: royalblue;
-  color: black;
-  padding-top: 32px;
+border-bottom: 27px solid  #B9B9B9;
+background-color: #3E5882;
+color: #3E5882;
+line-height: 27px;
+padding-top: 27px;
+text-decoration: none;
+transition: .05s;
+margin-bottom: 10px   
 }
-*/
