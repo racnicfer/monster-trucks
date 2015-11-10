@@ -16,23 +16,33 @@ http://subtlepatterns.com/category/patterns/page/2/
 
 body {
     background-image: url(../img/congruent_outline.png);
-   
+    
 }
-
+section {
+    background-color: rgba(188, 90, 7, .08);
+}
+main {
+    background-color: rgba(0, 0, 0, .25);
+}
 aside {
     margin-right: 20px;
 }
 h1 {
+    background-color: rgba(188, 90, 7, .04);
     color: #3E5882;
     font-family: 'Orbitron', sans-serif;
-    font-size: 7em;
-    border-bottom: 40px solid #BC5A07;
-    border-radius: 60px;
+    font-size: 6em;
+    border-bottom: 10px solid #BC5A07;
+   
+    font-style: italic;
+    border-radius: 5px;
     margin-left:0;
     margin: 20px 0;
+    display: block;
 }
 
 h2 {
+    font-style: italic;
     color: #3E5882;
     font-family: 'Sura', serif;
     font-weight: 700;
@@ -45,7 +55,7 @@ h2 {
 p {
     color: #B9B9B9;
     font-family: 'Sura', serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #bluetruck, #three {
@@ -56,17 +66,17 @@ img {
     float: left;
     width: 600px;
     top: 0; 
-    padding: 10px 30px;
+    
 }
 
 a {
-    border-radius: 5px;
+    border-radius: 2px;
     display: block;
     height:55px;
     width: 100px;
     text-align: center;
     border-bottom: 25px solid #2C3773;  
-    
+    border-left: 10px solid #BC5A07;
     
 }
 
@@ -88,13 +98,14 @@ a:visited {
     text-decoration: none;
     transition: all .05s;
     padding-top: 0;
+   
     text-align: center;
     display: block;
     height: 55px;
     width: 150px;    
     line-height: 27px;
     margin: 15px;
-    border-bottom: 27px solid #3E5882;
+    border-bottom: 15px solid #3E5882;
 }
 
 a:visited {
