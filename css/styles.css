@@ -7,7 +7,7 @@ Tertiary/Accent Color: #848080, #3E5882, #BC5A07
 
 Typography:
 Headlines: font-family: 'Orbitron', sans-serif
-Body Copy: 
+Body Copy: font-family: 'Sura', serif;
 
 backgrounds:
 http://subtlepatterns.com/category/patterns/page/2/
@@ -16,20 +16,17 @@ http://subtlepatterns.com/category/patterns/page/2/
 
 body {
     background-image: url(../img/congruent_outline.png);
-}
-
-aside {
-    margin: none;
-    text-align: left;
+   
 }
 
 h1 {
-    color: #2C3773;
+    color: #3E5882;
     font-family: 'Orbitron', sans-serif;
     font-size: 5em;
-    border-bottom: 50px solid #3E5882;
+    border-bottom: 50px solid #2C3773;
     border-radius: 60px;
-    padding-left: 58px; 
+    margin-left:0; 
+    
 }
 
 
@@ -39,10 +36,10 @@ p {
 }
 
 img {
-    width: 300px;
+    width: 500px;
 }
+
 a {
-    background:#BC5A07;
     border-radius: 17px;
     display: block;
     height:55px;
@@ -51,6 +48,8 @@ a {
 }
 
 li {
+    font-family: 'Sura', serif;
+    font-weight: bold;
     display: inline-block;
     font-size: 20px;
     border: none;
@@ -60,17 +59,15 @@ li {
 
 a:link,
 a:visited {
-    background: #BC5A07;
+    background: #848080;
     text-decoration: none;
-    color: #2C3773;
+    color:  #3E5882;
     display: block;
     height: 55px;
     width: 150px;    
     line-height: 30px;
-    outline-width: thick;
     margin: 15px;
-    border-bottom: 27px solid #848080;
-    border-left: 51px solid #848080;
+    border-bottom: 27px solid #2C3773;
 }
 
 /* links ***************************
