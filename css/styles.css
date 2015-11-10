@@ -96,7 +96,7 @@ a:link,
 a:visited {
     background: #B9B9B9;
     text-decoration: none;
-    transition: all .05s;
+    transition: all .01s;
     padding-top: 0;
    
     text-align: center;
@@ -127,6 +127,6 @@ color: #3E5882;
 line-height: 27px;
 padding-top: 27px;
 text-decoration: none;
-transition: .05s;
+transition: .01s;
 margin-bottom: 10px   
 }
